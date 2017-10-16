@@ -13,3 +13,8 @@ To run this command globally
 4. ```chmod +x <name_of_the_script>``` (This makes your file an executable file)
 
 Now this can be executed from anywhere as a normal command.
+
+Contributors:
+1. Rohit Ramaswamy 
+2. Harish Balasubramaniam
+3. ShivȘhankar Ravi
