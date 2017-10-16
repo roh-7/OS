@@ -1,11 +1,10 @@
 # OS
-My OS mini project. The task was to replicate the functionality of the history command. 
-This is Jugaad not the proper way to do it.
+My OS mini project. The task was to replicate the functionality of the history command.
 
 To try this on your machine 
-1. ```git clone https://github.com/roh-7/OS.git```.
-2. ```cd OS```.
-3. ```./mini.sh```.
+1. ```git clone https://github.com/roh-7/OS.git```
+2. ```cd OS```
+3. ```./mini.sh```
 
 To run this command globally
 1. ``` cp mini.sh ~/../../usr/local/bin```
