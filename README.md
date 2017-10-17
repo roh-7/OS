@@ -14,6 +14,8 @@ To run this command globally
 
 Now this can be executed from anywhere as a normal command.
 
+On execution the user is presented with a shell where he can enter the commands he wants to execute. These commands are inserted in a file named history_file. Whenever the user wishes to see the commands he has entered (his history), he can execute the ```historypls``` command.
+
 Contributors:
 1. Rohit Ramaswamy 
 2. Harish Balasubramaniam
