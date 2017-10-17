@@ -1,28 +1,32 @@
+# This is the main function
+
 function prompt()
 {
-    someps1=$(echo -e "\033[1msomeone@someshell >\033[0m ");
-    read -p "$someps1"  -r foo;
-    if [[ "$foo" == "historypls" ]]; then
-        echo -e "\nPrevious Commands\n";
-        cat history_file;
-        echo;
-        return 0;
-    fi
-    echo "$foo" >> history_file;
-    command $foo;
+	# miniProject > is the prompt shown everytime
+	read -p 'miniProject > ' -r command_entered;
+	if [[ "$command_entered" == "historypls" ]]; then
+		echo -e "\nPrevious Commands\n";
+		cat history_file;
+		echo;
+		return 0;
+	fi
+	echo "$command_entered" >> history_file;
+	# command $command_entered;
 }
 
-function bar()
+# this function is called when the interrupt signal is received
+
+function toExit()
 {
-    echo -e "\nExiting Shell\n";
-    exit 0;
+	echo -e "\nExiting Shell\n";
+	exit 0;
 }
 
-# Show acknowledgement when Interrupt signal is received
-trap bar SIGINT;
+# Show acknowledgement when Interrupt signal is received (Ctrl+C)
+trap toExit SIGINT;
 
-rm -f history_file;
+# To run this everytime
 
 while true; do
-    prompt;
+	prompt;
 done
