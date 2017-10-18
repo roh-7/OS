@@ -20,9 +20,6 @@ On execution the user is presented with a shell where he can enter the commands 
 
 <img src="https://github.com/roh-7/OS/blob/master/421.png">
 
-<img src="https://github.com/roh-7/OS/blob/master/426.png">
-
-
 
 Contributors:
 1. Rohit Ramaswamy 
