@@ -7,9 +7,9 @@ To try this on your machine
 3. ```./mini.sh```
 
 To run this command globally
-1. ``` cp mini.sh ~/../../usr/local/bin```
+1. ``` cp someshell.sh ~/../../usr/local/bin```
 2. ``` cd ~/../../usr/local/bin```
-3. ``` mv mini.sh <name_of_the_script_you_want>```
+3. ``` mv someshell.sh <name_of_the_script_you_want>```
 4. ```chmod +x <name_of_the_script>``` (This makes your file an executable file)
 
 Now this can be executed from anywhere as a normal command.
