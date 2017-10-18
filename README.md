@@ -4,7 +4,7 @@ My OS mini project. The task was to replicate the functionality of the history c
 To try this on your machine 
 1. ```git clone https://github.com/roh-7/OS.git```
 2. ```cd OS```
-3. ```./mini.sh```
+3. ```./someshell.sh```
 
 To run this command globally
 1. ``` cp someshell.sh ~/../../usr/local/bin```
