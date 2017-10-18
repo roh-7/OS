@@ -18,9 +18,9 @@ On execution the user is presented with a shell where he can enter the commands 
 
 ## Images
 
-<img src="https://github.com/roh-7/OS/blob/master/421.png>
+<img src="https://github.com/roh-7/OS/blob/master/421.png">
 
-<img src="https://github.com/roh-7/OS/blob/master/426.png>
+<img src="https://github.com/roh-7/OS/blob/master/426.png">
 
 
 
