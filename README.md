@@ -16,6 +16,14 @@ Now this can be executed from anywhere as a normal command.
 
 On execution the user is presented with a shell where he can enter the commands he wants to execute. These commands are inserted in a file named history_file. Whenever the user wishes to see the commands he has entered (his history), he can execute the ```historypls``` command.
 
+## Images
+
+<img src="https://github.com/roh-7/OS/Screen Shot 2017-10-18 at 4.39.21 PM.png>
+
+<img src="https://github.com/roh-7/OS/Screen Shot 2017-10-18 at 4.39.26 PM.png>
+
+
+
 Contributors:
 1. Rohit Ramaswamy 
 2. Harish Balasubramaniam
