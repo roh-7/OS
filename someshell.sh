@@ -10,6 +10,10 @@ function prompt()
 		echo;
 		return 0;
 	fi
+	if [[ "$command_entered" == "clearpls" ]]; then
+		clearHistory;
+		return 0;
+	fi
 	echo "$command_entered" >> history_file;
 	# command $command_entered;
 }
@@ -20,6 +24,12 @@ function toExit()
 {
 	echo -e "\nExiting Shell\n";
 	exit 0;
+}
+
+function clearHistory()
+{
+	command > history_file
+	echo -e "\n History cleared \n";
 }
 
 # Show acknowledgement when Interrupt signal is received (Ctrl+C)
